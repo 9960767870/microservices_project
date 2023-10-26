@@ -1,0 +1,16 @@
+
+#SPRING CONFIGURATION
+ server:
+      port: 8088
+      
+      
+ #EUREKA CONFIGURATION
+
+ eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  
+     
